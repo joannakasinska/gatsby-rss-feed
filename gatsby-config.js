@@ -7,7 +7,7 @@ module.exports = {
     //   "An example Gatsby blog with an automatically generated RSS feed.",
 
     title: `Test RSS feed Website`,
-    siteUrl: `https://https://darling-macaron-5b8921.netlify.app`,
+    siteUrl: `https://darling-macaron-5b8921.netlify.app`,
     description: `The personal website for Megan Sullivan, a software developer and educator.`,
     image: `images/bb1.png`,
     // image_url: `https://brainsandbeards.com/bb.png`,
