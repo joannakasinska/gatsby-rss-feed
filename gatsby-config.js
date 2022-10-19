@@ -7,9 +7,9 @@ module.exports = {
     //   "An example Gatsby blog with an automatically generated RSS feed.",
 
     title: `Megan Sullivan's Personal Website`,
-    siteUrl: `https://brainsandbeards.com`,
+    siteUrl: `https://https://darling-macaron-5b8921.netlify.app`,
     description: `The personal website for Megan Sullivan, a software developer and educator.`,
-    // image: `images/bb1.png`,
+    image: `images/bb1.png`,
     // image_url: `https://brainsandbeards.com/bb.png`,
     // favicon: `images/favicon.png`
   },
@@ -33,7 +33,7 @@ module.exports = {
           {
             title: "My Personal Blog RSS Feed",
             output: "rss.xml",
-            image_url: `https://brainsandbeards.com/bb.png`,
+            // image_url: `https://brainsandbeards.com/bb.png`,
 
             // image_url: 'http://127.0.0.1:9000/images/bb.png',
             query: `
