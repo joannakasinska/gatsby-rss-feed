@@ -6,7 +6,7 @@ module.exports = {
     // description:
     //   "An example Gatsby blog with an automatically generated RSS feed.",
 
-    title: `Megan Sullivan's Personal Website`,
+    title: `Test RSS feed Website`,
     siteUrl: `https://https://darling-macaron-5b8921.netlify.app`,
     description: `The personal website for Megan Sullivan, a software developer and educator.`,
     image: `images/bb1.png`,
@@ -31,11 +31,9 @@ module.exports = {
         `,
         feeds: [
           {
-            title: "My Personal Blog RSS Feed",
+            title: "Testing RSS Feed",
             output: "rss.xml",
             // image_url: `https://brainsandbeards.com/bb.png`,
-
-            // image_url: 'http://127.0.0.1:9000/images/bb.png',
             query: `
             {
               allMarkdownRemark(sort: {fields: frontmatter___date, order: ASC}) {
